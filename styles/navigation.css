@@ -1,0 +1,38 @@
+/*Navigation*/
+        .nav-container{
+            display:flex;
+            flex-direction: column;
+            position: fixed;
+            top:55px;
+            left:0px;
+            width:75px;
+            bottom:0;
+            background-color: white;
+            z-index: 7;
+        }
+
+
+        .nav-button{
+            height: 75px;
+        }
+
+        .nav-button div{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            left:24px
+
+        }
+        .nav-icon{
+            width:32%;
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 4px;
+        }
+        .nav-text{
+            display: flex;
+            font-size: 12px;
+            text-align: center;
+            align-items: center;
+        }
